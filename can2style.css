@@ -1,0 +1,128 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	list-style: none;
+	color: black;
+}
+
+body {
+	background-image:url('Canadian.jpg');
+	margin: 0 auto;
+	width: 900px;
+}
+
+#header {
+	color: black;
+	font-size: 40px;
+	text-align: center;
+}
+
+
+/* NAVIGATION */
+#nav {
+	background: #ff3019; /* Old browsers */
+	background: -moz-linear-gradient(top, #ff3019 15%, #cf0404 90%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(15%,#ff3019), color-stop(90%,#cf0404)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ff3019 15%,#cf0404 90%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ff3019 15%,#cf0404 90%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ff3019 15%,#cf0404 90%); /* IE10+ */
+	background: linear-gradient(to bottom, #ff3019 15%,#cf0404 90%); /* W3C */
+	border-radius: 5px 5px 0 0;
+	line-height: 30px;
+	opacity: 0.9;
+	padding-left: 10px;
+}
+
+
+#nav li {
+	display: inline-block;
+	float: right;
+
+	padding-right: 35px;
+}
+
+#nav a {
+	color: black;
+}
+
+#search {
+	width: 900px;
+}
+
+
+/* Body */
+#main {
+	width: 900px;
+}
+
+#main li {
+	background: #febbbb; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #febbbb 14%, #ff5c5c 81%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(14%,#febbbb), color-stop(81%,#ff5c5c)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, #febbbb 14%,#ff5c5c 81%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, #febbbb 14%,#ff5c5c 81%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, #febbbb 14%,#ff5c5c 81%); /* IE10+ */
+	background: radial-gradient(ellipse at center, #febbbb 14%,#ff5c5c 81%); /* W3C */
+	border: 1px solid black;
+	display: block;
+	line-height: 40px;
+	padding-left: 20px;
+	opacity: 0.9;
+}
+
+#main a {
+	color: black;
+}
+
+#col1 {
+	border-right: none;
+	float: left;
+	width: 450px;
+}
+
+
+#col2 {
+	float: right;
+	width: 450px;
+}
+
+#footer {
+	background: #ff3019; /* Old browsers */
+	background: -moz-linear-gradient(top, #ff3019 15%, #cf0404 90%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(15%,#ff3019), color-stop(90%,#cf0404)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ff3019 15%,#cf0404 90%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ff3019 15%,#cf0404 90%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ff3019 15%,#cf0404 90%); /* IE10+ */
+	background: linear-gradient(to bottom, #ff3019 15%,#cf0404 90%); /* W3C */
+	opacity: 0.9;
+	width: 900px;
+}
+
+#footer li {
+	float: left;
+}
+
+
+
+
+
+
+
+
